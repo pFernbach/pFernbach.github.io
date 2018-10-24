@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Homepage of Pierre Fernbach</title>
+    <link>https://pfernbach.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on Homepage of Pierre Fernbach</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://pfernbach.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CROC: Convex Resolution Of Centroidal dynamics trajectories to provide a feasibility criterion for the multi contact planning problem</title>
+      <link>https://pfernbach.github.io/publication/fernbach18/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/fernbach18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Kinodynamic steering-method for legged multi-contact locomotion</title>
+      <link>https://pfernbach.github.io/publication/fernbach17/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/fernbach17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-contact Locomotion of Legged Robots in Complex Environments -- The Loco3D project</title>
+      <link>https://pfernbach.github.io/publication/carpentier17/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/carpentier17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ballistic motion planning for jumping superheroes</title>
+      <link>https://pfernbach.github.io/publication/campana16/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/campana16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HPP: a new software for constrained motion planning</title>
+      <link>https://pfernbach.github.io/publication/mirabel16/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/mirabel16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modular fault diagnosis in discrete-event systems with a CPN diagnoser</title>
+      <link>https://pfernbach.github.io/publication/pencole15/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/pencole15/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

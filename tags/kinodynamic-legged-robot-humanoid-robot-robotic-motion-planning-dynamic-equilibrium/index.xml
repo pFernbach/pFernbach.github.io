@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kinodynamic ;  legged robot ;  humanoid robot ; Robotic ;  motion planning ;  dynamic equilibrium on Homepage of Pierre Fernbach</title>
+    <link>https://pfernbach.github.io/tags/kinodynamic-legged-robot-humanoid-robot-robotic-motion-planning-dynamic-equilibrium/</link>
+    <description>Recent content in kinodynamic ;  legged robot ;  humanoid robot ; Robotic ;  motion planning ;  dynamic equilibrium on Homepage of Pierre Fernbach</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://pfernbach.github.io/tags/kinodynamic-legged-robot-humanoid-robot-robotic-motion-planning-dynamic-equilibrium/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Kinodynamic steering-method for legged multi-contact locomotion</title>
+      <link>https://pfernbach.github.io/publication/fernbach17/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/fernbach17/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

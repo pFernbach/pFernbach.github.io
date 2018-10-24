@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>torque-control on Homepage of Pierre Fernbach</title>
+    <link>https://pfernbach.github.io/tags/torque-control/</link>
+    <description>Recent content in torque-control on Homepage of Pierre Fernbach</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 10 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://pfernbach.github.io/tags/torque-control/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Compliant Feedback Control of Legged Robots</title>
+      <link>https://pfernbach.github.io/project/compliant-control/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfernbach.github.io/project/compliant-control/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

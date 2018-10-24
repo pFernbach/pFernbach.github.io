@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Encoding ; Supervision ; Petri-nets ; Discrete-event System ; Diagnosis on Homepage of Pierre Fernbach</title>
+    <link>https://pfernbach.github.io/tags/encoding-supervision-petri-nets-discrete-event-system-diagnosis/</link>
+    <description>Recent content in Encoding ; Supervision ; Petri-nets ; Discrete-event System ; Diagnosis on Homepage of Pierre Fernbach</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://pfernbach.github.io/tags/encoding-supervision-petri-nets-discrete-event-system-diagnosis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modular fault diagnosis in discrete-event systems with a CPN diagnoser</title>
+      <link>https://pfernbach.github.io/publication/pencole15/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/pencole15/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
