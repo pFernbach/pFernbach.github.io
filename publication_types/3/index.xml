@@ -7,18 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 15 Oct 2018 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://pfernbach.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>C-CROC: Continuous and Convex Resolution of Centroidal dynamic trajectories for legged robots in multi-contact scenarios</title>
-      <link>https://pfernbach.github.io/publication/fernbach18ccroc/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0200</pubDate>
+      <title>Thèse : Modèles réduits fiables et efficaces pour la planification et l’optimisation de mouvement des robots à pattes en environnements contraints</title>
+      <link>https://pfernbach.github.io/publication/fernbach_thesis/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0200</pubDate>
       
-      <guid>https://pfernbach.github.io/publication/fernbach18ccroc/</guid>
-      <description></description>
+      <guid>https://pfernbach.github.io/publication/fernbach_thesis/</guid>
+      <description>   </description>
     </item>
     
   </channel>
