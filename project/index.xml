@@ -18,7 +18,7 @@
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pfernbach.github.io/project/hpp/</guid>
-      <description></description>
+      <description>Humanoid Path Planner is a software platform aimed at solving motion planning problems for humanoid robots. It is also designed to solve classical (non humanoid) path planning problems.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pfernbach.github.io/project/memory-of-motion/</guid>
-      <description></description>
+      <description>The project Memmo aims to solve the problem of generating complex movements for arbitrary robots with arms and legs interacting in a dynamic environment in real-time. Memmo will develop a unified yet tractable approach to motion generation for complex robots with arms and legs.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pfernbach.github.io/project/compliant-control/</guid>
-      <description></description>
+      <description>The goal of this project is to achieve reliable locomotion behaviors in semi-structured environments with the humanoid robots HRP-2 and Pyrene. This project relies on model-based feedback control techniques, such as inverse-dynamics and model predictive control.</description>
     </item>
     
   </channel>

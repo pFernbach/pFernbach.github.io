@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 23 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://pfernbach.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Encoding ; Supervision ; Petri-nets ; Discrete-event System ; Diagnosis</title>
-      <link>https://pfernbach.github.io/tags/encoding-supervision-petri-nets-discrete-event-system-diagnosis/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0200</pubDate>
-      
-      <guid>https://pfernbach.github.io/tags/encoding-supervision-petri-nets-discrete-event-system-diagnosis/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Motion-planning</title>
@@ -27,42 +18,6 @@
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pfernbach.github.io/tags/motion-planning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multi contact locomotion ; centroidal dynamics ; Humanoid robots ; legged robots ; Motion planning</title>
-      <link>https://pfernbach.github.io/tags/multi-contact-locomotion-centroidal-dynamics-humanoid-robots-legged-robots-motion-planning/</link>
-      <pubDate>Mon, 15 Oct 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://pfernbach.github.io/tags/multi-contact-locomotion-centroidal-dynamics-humanoid-robots-legged-robots-motion-planning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ballistic trajectory ; jump ; motion planning ; animation</title>
-      <link>https://pfernbach.github.io/tags/ballistic-trajectory-jump-motion-planning-animation/</link>
-      <pubDate>Sat, 01 Oct 2016 00:00:00 +0200</pubDate>
-      
-      <guid>https://pfernbach.github.io/tags/ballistic-trajectory-jump-motion-planning-animation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>inverse-dynamics</title>
-      <link>https://pfernbach.github.io/tags/inverse-dynamics/</link>
-      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://pfernbach.github.io/tags/inverse-dynamics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kinodynamic ;  legged robot ;  humanoid robot ; Robotic ;  motion planning ;  dynamic equilibrium</title>
-      <link>https://pfernbach.github.io/tags/kinodynamic-legged-robot-humanoid-robot-robotic-motion-planning-dynamic-equilibrium/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0200</pubDate>
-      
-      <guid>https://pfernbach.github.io/tags/kinodynamic-legged-robot-humanoid-robot-robotic-motion-planning-dynamic-equilibrium/</guid>
       <description></description>
     </item>
     
@@ -76,11 +31,20 @@
     </item>
     
     <item>
-      <title>manipulation ; legged robotics ; motion planning software</title>
-      <link>https://pfernbach.github.io/tags/manipulation-legged-robotics-motion-planning-software/</link>
-      <pubDate>Sat, 01 Oct 2016 00:00:00 +0200</pubDate>
+      <title>Multi contact locomotion ; centroidal dynamics ; Humanoid robots ; legged robots ; Motion planning</title>
+      <link>https://pfernbach.github.io/tags/multi-contact-locomotion-centroidal-dynamics-humanoid-robots-legged-robots-motion-planning/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0200</pubDate>
       
-      <guid>https://pfernbach.github.io/tags/manipulation-legged-robotics-motion-planning-software/</guid>
+      <guid>https://pfernbach.github.io/tags/multi-contact-locomotion-centroidal-dynamics-humanoid-robots-legged-robots-motion-planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inverse-dynamics</title>
+      <link>https://pfernbach.github.io/tags/inverse-dynamics/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfernbach.github.io/tags/inverse-dynamics/</guid>
       <description></description>
     </item>
     
@@ -90,6 +54,42 @@
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pfernbach.github.io/tags/torque-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kinodynamic ;  legged robot ;  humanoid robot ; Robotic ;  motion planning ;  dynamic equilibrium</title>
+      <link>https://pfernbach.github.io/tags/kinodynamic-legged-robot-humanoid-robot-robotic-motion-planning-dynamic-equilibrium/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/tags/kinodynamic-legged-robot-humanoid-robot-robotic-motion-planning-dynamic-equilibrium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ballistic trajectory ; jump ; motion planning ; animation</title>
+      <link>https://pfernbach.github.io/tags/ballistic-trajectory-jump-motion-planning-animation/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/tags/ballistic-trajectory-jump-motion-planning-animation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manipulation ; legged robotics ; motion planning software</title>
+      <link>https://pfernbach.github.io/tags/manipulation-legged-robotics-motion-planning-software/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/tags/manipulation-legged-robotics-motion-planning-software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Encoding ; Supervision ; Petri-nets ; Discrete-event System ; Diagnosis</title>
+      <link>https://pfernbach.github.io/tags/encoding-supervision-petri-nets-discrete-event-system-diagnosis/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/tags/encoding-supervision-petri-nets-discrete-event-system-diagnosis/</guid>
       <description></description>
     </item>
     

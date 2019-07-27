@@ -18,7 +18,7 @@
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pfernbach.github.io/project/compliant-control/</guid>
-      <description></description>
+      <description>The goal of this project is to achieve reliable locomotion behaviors in semi-structured environments with the humanoid robots HRP-2 and Pyrene. This project relies on model-based feedback control techniques, such as inverse-dynamics and model predictive control.</description>
     </item>
     
   </channel>
