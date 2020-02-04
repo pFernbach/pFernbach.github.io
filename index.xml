@@ -6,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Loco-3D</title>
+      <link>https://pfernbach.github.io/project/loco-3d/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfernbach.github.io/project/loco-3d/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Learning How to Walk: Warm-starting Optimal Control Solver with Memory of Motion</title>
@@ -167,15 +176,6 @@
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0200</pubDate>
       
       <guid>https://pfernbach.github.io/publication/campana16/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HPP: a new software for constrained motion planning</title>
-      <link>https://pfernbach.github.io/publication/mirabel16/</link>
-      <pubDate>Sat, 01 Oct 2016 00:00:00 +0200</pubDate>
-      
-      <guid>https://pfernbach.github.io/publication/mirabel16/</guid>
       <description></description>
     </item>
     

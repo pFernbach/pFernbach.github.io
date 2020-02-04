@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 23 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://pfernbach.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Loco-3D</title>
+      <link>https://pfernbach.github.io/project/loco-3d/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pfernbach.github.io/project/loco-3d/</guid>
+      <description>The objective of Loco3D is to build a methodology to execute a contact sequence, computed with an efficient motion planner, with a powerful humanoid robot inside a complex environment subject to dynamic changes. Planning and adapting complex locomotion patterns is a key problem that prevents from releasing humanoid robots and other legged manipulators in non-conventional factories, such as the assembly workshop of the Airbus A350 and A380 aircrafts in Toulouse, and beyond, the implementation of rehabilitation exoskeletons (e.g. for paraplegic) and the use service humanoid robots in offices, hospital and home environments.</description>
+    </item>
     
     <item>
       <title>Humanoid Path Planner</title>
