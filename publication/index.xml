@@ -13,20 +13,56 @@
     
     
     <item>
+      <title>Learning How to Walk: Warm-starting Optimal Control Solver with Memory of Motion</title>
+      <link>https://pfernbach.github.io/publication/icra20/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/icra20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C-CROC: Continuous and Convex Resolution of Centroidal dynamic trajectories for legged robots in multi-contact scenarios</title>
+      <link>https://pfernbach.github.io/publication/tro20/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/tro20/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Motion Planning for an Elastic Rod using Contacts</title>
+      <link>https://pfernbach.github.io/publication/tase19/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/tase19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SL1M: Sparse L1-norm Minimization for contact planning on uneven terrain</title>
+      <link>https://pfernbach.github.io/publication/sl1m/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/sl1m/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Contact Planning for the ANYmal Quadruped Robot Using an Acyclic Reachability-Based Planner</title>
+      <link>https://pfernbach.github.io/publication/taros19/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/taros19/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
       <title>Thèse : Modèles réduits fiables et efficaces pour la planification et l’optimisation de mouvement des robots à pattes en environnements contraints</title>
       <link>https://pfernbach.github.io/publication/fernbach_thesis/</link>
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0200</pubDate>
       
       <guid>https://pfernbach.github.io/publication/fernbach_thesis/</guid>
-      <description>   </description>
-    </item>
-    
-    <item>
-      <title>C-CROC: Continuous and Convex Resolution of Centroidal dynamic trajectories for legged robots in multi-contact scenarios</title>
-      <link>https://pfernbach.github.io/publication/fernbach18ccroc/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://pfernbach.github.io/publication/fernbach18ccroc/</guid>
       <description>   </description>
     </item>
     

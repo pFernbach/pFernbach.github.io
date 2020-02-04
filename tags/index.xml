@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 23 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jan 2020 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://pfernbach.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Multi contact locomotion ; centroidal dynamics ; Humanoid robots ; legged robots ; Motion planning</title>
+      <link>https://pfernbach.github.io/tags/multi-contact-locomotion-centroidal-dynamics-humanoid-robots-legged-robots-motion-planning/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://pfernbach.github.io/tags/multi-contact-locomotion-centroidal-dynamics-humanoid-robots-legged-robots-motion-planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Motion planning ; contact planning ; sliding motion : elastic rod</title>
+      <link>https://pfernbach.github.io/tags/motion-planning-contact-planning-sliding-motion-elastic-rod/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/tags/motion-planning-contact-planning-sliding-motion-elastic-rod/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Motion-planning</title>
@@ -27,15 +45,6 @@
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pfernbach.github.io/tags/learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multi contact locomotion ; centroidal dynamics ; Humanoid robots ; legged robots ; Motion planning</title>
-      <link>https://pfernbach.github.io/tags/multi-contact-locomotion-centroidal-dynamics-humanoid-robots-legged-robots-motion-planning/</link>
-      <pubDate>Mon, 15 Oct 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://pfernbach.github.io/tags/multi-contact-locomotion-centroidal-dynamics-humanoid-robots-legged-robots-motion-planning/</guid>
       <description></description>
     </item>
     

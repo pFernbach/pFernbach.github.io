@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jan 2020 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://pfernbach.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>C-CROC: Continuous and Convex Resolution of Centroidal dynamic trajectories for legged robots in multi-contact scenarios</title>
+      <link>https://pfernbach.github.io/publication/tro20/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/tro20/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Motion Planning for an Elastic Rod using Contacts</title>
+      <link>https://pfernbach.github.io/publication/tase19/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/tase19/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>2PAC: Two Point Attractors for Center of Mass Trajectories in Multi Contact Scenarios</title>

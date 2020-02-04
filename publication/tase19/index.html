@@ -15,10 +15,10 @@
   
     
   
-  <meta name="description" content=" We present a novel method for computing centroidal dynamic trajectories in multi-contact planning context. With dynamic motion it is necessary to respect kinematic and dynamic constraints during the contact planning step. Verifying the feasibility of a transition between contacts increase the success rate of the motion generation along the planned contacts. Our approach is based on a conservative but convex reformulation of the problem where we represent the center of mass trajectory as a Bezier curve, with control points constrained by the initial and final states and one free control point. Thanks to the convexity of this formulation, we can solve it efficiently with a Linear Program of low dimension. We use this LP as a feasibility criterion to test the contact transition candidates during multi-contact planning. By incorporating this criterion in an existing sampling-based contact planner, we are able to produce more robust contact sequences. We illustrate this application on various multi-contact scenarios. We also show that we can compute valuable initial guess, used to warm-start non-linear solvers for motion generation methods. This method could also be used for the 0 and 1-Step capturability problem. ">
+  <meta name="description" content="This paper focuses on the motion planning problem of an extensible elastic rod in collision-free or contact space. The rod is assumed to be handled by grippers either at one or both extremities. Furthermore, during manipulation, the grasped end may change. We show that the use of both quasi-static and dynamic models can be coupled efficiently with sampling-based methods. Sampling directly in the submanifold of static equilibrium and contact-free configurations allows to take advantage of the dynamic model to improve the exploration of the state space. In this way, thanks to the contact information (point, forces, direction, number of contacts), the exploration of the RRT approach can be improved. We present a new RRT-SLIDE algorithm which guides the roadmap extension with a sliding contact mode based on some principles of human reasoning. We show that our approach is probabilistically complete. We also demonstrate the necessity of considering contacts on complex scenarios with several simulation experiments. Besides its performances , our algorithm does not require further tuning phase for a new scenario. Note to Practitioners-This work was done under the industrial project Flecto (ANR-Digital Models). It aims at solving the assembly/disassembly task for a rod while satisfying the elasticity parameters of its material. For industrial applications, the resolution time is a critical point. On the one hand, probabilistic motion planning methods require to efficiently build a roadmap of valid rod configurations. On the other hand, accurate rod modeling implies the use of a simulator based on the finite element method. Nevertheless, the very large size of the roadmap, that leads to a high number of calls to the simulator, is conflicting with the high computational cost of finite-element based simulation. To overcome this problem, one solution is to reduce the number of simulator calls. This can be achieved by sampling the free space with an efficient parameterization and by limiting the use of the simulator to roadmap extension in the free space or in the contact space. We introduce heuristics based on contact information returned by the simulator to reduce significantly the computational time. One of the main advantages of our algorithm is that it does not require any tuning phase for each scenario. Although we do not solve the more general gripper manipulation planning problem, this approach could be used as a first step before computing the motion of the grippers. In the framework of our project, we did not consider disassembling operations implying undoing rod knots. Consequently, we do not take friction into account in our approach. In order to handle knots, it would be necessary to have a physics simulator that could handle friction for deformable rods.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://pfernbach.github.io/publication/fernbach18/">
+  <link rel="alternate" hreflang="en-us" href="https://pfernbach.github.io/publication/tase19/">
 
   
 
@@ -100,30 +100,30 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://pfernbach.github.io/publication/fernbach18/">
+  <link rel="canonical" href="https://pfernbach.github.io/publication/tase19/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Homepage of Pierre Fernbach">
-  <meta property="og:url" content="https://pfernbach.github.io/publication/fernbach18/">
-  <meta property="og:title" content="CROC: Convex Resolution Of Centroidal dynamics trajectories to provide a feasibility criterion for the multi contact planning problem | Homepage of Pierre Fernbach">
-  <meta property="og:description" content=" We present a novel method for computing centroidal dynamic trajectories in multi-contact planning context. With dynamic motion it is necessary to respect kinematic and dynamic constraints during the contact planning step. Verifying the feasibility of a transition between contacts increase the success rate of the motion generation along the planned contacts. Our approach is based on a conservative but convex reformulation of the problem where we represent the center of mass trajectory as a Bezier curve, with control points constrained by the initial and final states and one free control point. Thanks to the convexity of this formulation, we can solve it efficiently with a Linear Program of low dimension. We use this LP as a feasibility criterion to test the contact transition candidates during multi-contact planning. By incorporating this criterion in an existing sampling-based contact planner, we are able to produce more robust contact sequences. We illustrate this application on various multi-contact scenarios. We also show that we can compute valuable initial guess, used to warm-start non-linear solvers for motion generation methods. This method could also be used for the 0 and 1-Step capturability problem. ">
+  <meta property="og:url" content="https://pfernbach.github.io/publication/tase19/">
+  <meta property="og:title" content="Motion Planning for an Elastic Rod using Contacts | Homepage of Pierre Fernbach">
+  <meta property="og:description" content="This paper focuses on the motion planning problem of an extensible elastic rod in collision-free or contact space. The rod is assumed to be handled by grippers either at one or both extremities. Furthermore, during manipulation, the grasped end may change. We show that the use of both quasi-static and dynamic models can be coupled efficiently with sampling-based methods. Sampling directly in the submanifold of static equilibrium and contact-free configurations allows to take advantage of the dynamic model to improve the exploration of the state space. In this way, thanks to the contact information (point, forces, direction, number of contacts), the exploration of the RRT approach can be improved. We present a new RRT-SLIDE algorithm which guides the roadmap extension with a sliding contact mode based on some principles of human reasoning. We show that our approach is probabilistically complete. We also demonstrate the necessity of considering contacts on complex scenarios with several simulation experiments. Besides its performances , our algorithm does not require further tuning phase for a new scenario. Note to Practitioners-This work was done under the industrial project Flecto (ANR-Digital Models). It aims at solving the assembly/disassembly task for a rod while satisfying the elasticity parameters of its material. For industrial applications, the resolution time is a critical point. On the one hand, probabilistic motion planning methods require to efficiently build a roadmap of valid rod configurations. On the other hand, accurate rod modeling implies the use of a simulator based on the finite element method. Nevertheless, the very large size of the roadmap, that leads to a high number of calls to the simulator, is conflicting with the high computational cost of finite-element based simulation. To overcome this problem, one solution is to reduce the number of simulator calls. This can be achieved by sampling the free space with an efficient parameterization and by limiting the use of the simulator to roadmap extension in the free space or in the contact space. We introduce heuristics based on contact information returned by the simulator to reduce significantly the computational time. One of the main advantages of our algorithm is that it does not require any tuning phase for each scenario. Although we do not solve the more general gripper manipulation planning problem, this approach could be used as a first step before computing the motion of the grippers. In the framework of our project, we did not consider disassembling operations implying undoing rod knots. Consequently, we do not take friction into account in our approach. In order to handle knots, it would be necessary to have a physics simulator that could handle friction for deformable rods.">
   
   
     
   <meta property="og:image" content="https://pfernbach.github.io/img/photoCV.JPG">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-10-01T00:00:00&#43;02:00">
+  <meta property="article:published_time" content="2019-09-30T00:00:00&#43;02:00">
   
-  <meta property="article:modified_time" content="2018-10-25T13:48:44&#43;02:00">
-  
-
+  <meta property="article:modified_time" content="2019-09-30T00:00:00&#43;02:00">
   
 
   
 
-  <title>CROC: Convex Resolution Of Centroidal dynamics trajectories to provide a feasibility criterion for the multi contact planning problem | Homepage of Pierre Fernbach</title>
+  
+
+  <title>Motion Planning for an Elastic Rod using Contacts | Homepage of Pierre Fernbach</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -294,7 +294,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">CROC: Convex Resolution Of Centroidal dynamics trajectories to provide a feasibility criterion for the multi contact planning problem</h1>
+  <h1 itemprop="name">Motion Planning for an Elastic Rod using Contacts</h1>
 
   
 
@@ -308,10 +308,10 @@
   
   <div>
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Pierre Fernbach</span>
+      <span itemprop="name">Olivier Roussel</span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Steve Tonneau</span>
+      <span itemprop="name">Pierre Fernbach</span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">Michel Taïx</span>
@@ -322,11 +322,9 @@
 
   <span class="article-date">
     
-        Last updated on
-    
-    <meta content="2018-10-01 00:00:00 &#43;0200 CEST" itemprop="datePublished">
-    <time datetime="2018-10-25 13:48:44 &#43;0200 CEST" itemprop="dateModified">
-      Oct 25, 2018
+    <meta content="2019-09-30 00:00:00 &#43;0200 CEST" itemprop="datePublished">
+    <time datetime="2019-09-30 00:00:00 &#43;0200 CEST" itemprop="dateModified">
+      Sep 30, 2019
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -356,7 +354,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">We present a novel method for computing centroidal dynamic trajectories in multi-contact planning context. With dynamic motion it is necessary to respect kinematic and dynamic constraints during the contact planning step. Verifying the feasibility of a transition between contacts increase the success rate of the motion generation along the planned contacts. Our approach is based on a conservative but convex reformulation of the problem where we represent the center of mass trajectory as a Bezier curve, with control points constrained by the initial and final states and one free control point. Thanks to the convexity of this formulation, we can solve it efficiently with a Linear Program of low dimension. We use this LP as a feasibility criterion to test the contact transition candidates during multi-contact planning. By incorporating this criterion in an existing sampling-based contact planner, we are able to produce more robust contact sequences. We illustrate this application on various multi-contact scenarios. We also show that we can compute valuable initial guess, used to warm-start non-linear solvers for motion generation methods. This method could also be used for the 0 and 1-Step capturability problem.</p>
+    <p class="pub-abstract" itemprop="text">This paper focuses on the motion planning problem of an extensible elastic rod in collision-free or contact space. The rod is assumed to be handled by grippers either at one or both extremities. Furthermore, during manipulation, the grasped end may change. We show that the use of both quasi-static and dynamic models can be coupled efficiently with sampling-based methods. Sampling directly in the submanifold of static equilibrium and contact-free configurations allows to take advantage of the dynamic model to improve the exploration of the state space. In this way, thanks to the contact information (point, forces, direction, number of contacts), the exploration of the RRT approach can be improved. We present a new RRT-SLIDE algorithm which guides the roadmap extension with a sliding contact mode based on some principles of human reasoning. We show that our approach is probabilistically complete. We also demonstrate the necessity of considering contacts on complex scenarios with several simulation experiments. Besides its performances , our algorithm does not require further tuning phase for a new scenario. Note to Practitioners-This work was done under the industrial project Flecto (ANR-Digital Models). It aims at solving the assembly/disassembly task for a rod while satisfying the elasticity parameters of its material. For industrial applications, the resolution time is a critical point. On the one hand, probabilistic motion planning methods require to efficiently build a roadmap of valid rod configurations. On the other hand, accurate rod modeling implies the use of a simulator based on the finite element method. Nevertheless, the very large size of the roadmap, that leads to a high number of calls to the simulator, is conflicting with the high computational cost of finite-element based simulation. To overcome this problem, one solution is to reduce the number of simulator calls. This can be achieved by sampling the free space with an efficient parameterization and by limiting the use of the simulator to roadmap extension in the free space or in the contact space. We introduce heuristics based on contact information returned by the simulator to reduce significantly the computational time. One of the main advantages of our algorithm is that it does not require any tuning phase for each scenario. Although we do not solve the more general gripper manipulation planning problem, this approach could be used as a first step before computing the motion of the grippers. In the framework of our project, we did not consider disassembling operations implying undoing rod knots. Consequently, we do not take friction into account in our approach. In order to handle knots, it would be necessary to have a physics simulator that could handle friction for deformable rods.</p>
     
 
     
@@ -367,8 +365,8 @@
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
             
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#2">
+              Journal article
             </a>
             
           </div>
@@ -380,18 +378,6 @@
     
 
     
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>2018 IEEE/RSJ International Conference on Intelligent Robots and Systems</em></div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
 
     <div class="row">
       <div class="col-md-1"></div>
@@ -399,7 +385,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            October, 2018
+            September, 2019
           </div>
         </div>
       </div>
@@ -420,24 +406,24 @@
 
 
 
-
-  
-
-
-
-  
-    
-  
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://hal.archives-ouvertes.fr/hal-01726155/document" target="_blank" rel="noopener">
-  PDF
+<a class="btn btn-outline-primary my-1 mr-1" href="https://hal.laas.fr/hal-01954894/document" target="_blank" rel="noopener">
+  Preprint
 </a>
 
 
 
+
+  
+
+
+
+  
+
+
+
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/fernbach18/fernbach18.bib">
+        data-filename="/publication/tase19/roussel_tase19.bib">
   Cite
 </button>
 
@@ -451,16 +437,10 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/wKKUvbyN5kc" target="_blank" rel="noopener">
-  Video
-</a>
 
 
 
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://hal.laas.fr/hal-01726155" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://hal.laas.fr/hal-01954894" target="_blank" rel="noopener">
   View on HAL
 </a>
 
@@ -475,14 +455,18 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/wKKUvbyN5kc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
-</div>
+    <div class="article-style"></div>
 
     
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="">Motion planning ; contact planning ; sliding motion : elastic rod</a>
+  
+</div>
+
+
 
     
 
@@ -492,80 +476,6 @@
 
 
 
-
-<div class="media author-card" itemscope itemtype="http://schema.org/Person">
-  
-  <img class="portrait mr-3" src="/img/photoCV.JPG" itemprop="image" alt="Avatar">
-  
-  <div class="media-body">
-    <h5 class="card-title" itemprop="name"><a href="/">Pierre Fernbach</a></h5>
-    <h6 class="card-subtitle">PhD of Robotics</h6>
-    
-    <ul class="network-icon" aria-hidden="true">
-      
-      
-      
-      
-      
-      
-      <li>
-        <a itemprop="sameAs" href="mailto:pierre.fernbach@gmail.com" target="_blank" rel="noopener">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      <li>
-        <a itemprop="sameAs" href="https://scholar.google.fr/citations?user=y4XnB6IAAAAJ" target="_blank" rel="noopener">
-          <i class="ai ai-google-scholar"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      
-      
-      <li>
-        <a itemprop="sameAs" href="//github.com/pFernbach" target="_blank" rel="noopener">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      <li>
-        <a itemprop="sameAs" href="https://www.researchgate.net/profile/Pierre_Fernbach" target="_blank" rel="noopener">
-          <i class="ai ai-researchgate"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      
-      
-      <li>
-        <a itemprop="sameAs" href="https://www.linkedin.com/in/pierre-fernbach-b866b5186/" target="_blank" rel="noopener">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      <li>
-        <a itemprop="sameAs" href="files/Cv_Fernbach.pdf" target="_blank" rel="noopener">
-          <i class="ai ai-cv"></i>
-        </a>
-      </li>
-      
-    </ul>
-  </div>
-</div>
 
 
 

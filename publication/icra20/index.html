@@ -15,10 +15,10 @@
   
     
   
-  <meta name="description" content=" We present a novel method for computing centroidal dynamic trajectories in multi-contact planning context. With dynamic motion it is necessary to respect kinematic and dynamic constraints during the contact planning step. Verifying the feasibility of a transition between contacts increase the success rate of the motion generation along the planned contacts. Our approach is based on a conservative but convex reformulation of the problem where we represent the center of mass trajectory as a Bezier curve, with control points constrained by the initial and final states and one free control point. Thanks to the convexity of this formulation, we can solve it efficiently with a Linear Program of low dimension. We use this LP as a feasibility criterion to test the contact transition candidates during multi-contact planning. By incorporating this criterion in an existing sampling-based contact planner, we are able to produce more robust contact sequences. We illustrate this application on various multi-contact scenarios. We also show that we can compute valuable initial guess, used to warm-start non-linear solvers for motion generation methods. This method could also be used for the 0 and 1-Step capturability problem. ">
+  <meta name="description" content="In this paper, we propose a framework to build a memory of motion to warm-start an optimal control solver for the locomotion task of the humanoid robot Talos. We use HPP Loco3D, a versatile locomotion planner, to generate offline a set of dynamically consistent whole-body trajectory to be stored as the memory of motion. The learning problem is formulated as a regression problem to predict a single-step motion given the desired contact locations, which is then used as building block for multi-step motions. The predicted trajectory is then used as warm-starts for the fast optimal control solver Crocoddyl. We have shown that the approach manages to reduce the required number of iterations to reach the convergence from ∼9.5 to only ∼3.0 iterations for the single-step motion and from ∼6.2 to ∼4.5 iterations for the multi-step motion, while maintaining the solution&#39;s quality. ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://pfernbach.github.io/publication/fernbach18/">
+  <link rel="alternate" hreflang="en-us" href="https://pfernbach.github.io/publication/icra20/">
 
   
 
@@ -100,30 +100,30 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://pfernbach.github.io/publication/fernbach18/">
+  <link rel="canonical" href="https://pfernbach.github.io/publication/icra20/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Homepage of Pierre Fernbach">
-  <meta property="og:url" content="https://pfernbach.github.io/publication/fernbach18/">
-  <meta property="og:title" content="CROC: Convex Resolution Of Centroidal dynamics trajectories to provide a feasibility criterion for the multi contact planning problem | Homepage of Pierre Fernbach">
-  <meta property="og:description" content=" We present a novel method for computing centroidal dynamic trajectories in multi-contact planning context. With dynamic motion it is necessary to respect kinematic and dynamic constraints during the contact planning step. Verifying the feasibility of a transition between contacts increase the success rate of the motion generation along the planned contacts. Our approach is based on a conservative but convex reformulation of the problem where we represent the center of mass trajectory as a Bezier curve, with control points constrained by the initial and final states and one free control point. Thanks to the convexity of this formulation, we can solve it efficiently with a Linear Program of low dimension. We use this LP as a feasibility criterion to test the contact transition candidates during multi-contact planning. By incorporating this criterion in an existing sampling-based contact planner, we are able to produce more robust contact sequences. We illustrate this application on various multi-contact scenarios. We also show that we can compute valuable initial guess, used to warm-start non-linear solvers for motion generation methods. This method could also be used for the 0 and 1-Step capturability problem. ">
+  <meta property="og:url" content="https://pfernbach.github.io/publication/icra20/">
+  <meta property="og:title" content="Learning How to Walk: Warm-starting Optimal Control Solver with Memory of Motion | Homepage of Pierre Fernbach">
+  <meta property="og:description" content="In this paper, we propose a framework to build a memory of motion to warm-start an optimal control solver for the locomotion task of the humanoid robot Talos. We use HPP Loco3D, a versatile locomotion planner, to generate offline a set of dynamically consistent whole-body trajectory to be stored as the memory of motion. The learning problem is formulated as a regression problem to predict a single-step motion given the desired contact locations, which is then used as building block for multi-step motions. The predicted trajectory is then used as warm-starts for the fast optimal control solver Crocoddyl. We have shown that the approach manages to reduce the required number of iterations to reach the convergence from ∼9.5 to only ∼3.0 iterations for the single-step motion and from ∼6.2 to ∼4.5 iterations for the multi-step motion, while maintaining the solution&#39;s quality. ">
   
   
     
   <meta property="og:image" content="https://pfernbach.github.io/img/photoCV.JPG">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-10-01T00:00:00&#43;02:00">
+  <meta property="article:published_time" content="2020-01-31T00:00:00&#43;01:00">
   
-  <meta property="article:modified_time" content="2018-10-25T13:48:44&#43;02:00">
-  
-
+  <meta property="article:modified_time" content="2020-01-31T00:00:00&#43;01:00">
   
 
   
 
-  <title>CROC: Convex Resolution Of Centroidal dynamics trajectories to provide a feasibility criterion for the multi contact planning problem | Homepage of Pierre Fernbach</title>
+  
+
+  <title>Learning How to Walk: Warm-starting Optimal Control Solver with Memory of Motion | Homepage of Pierre Fernbach</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -294,7 +294,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">CROC: Convex Resolution Of Centroidal dynamics trajectories to provide a feasibility criterion for the multi contact planning problem</h1>
+  <h1 itemprop="name">Learning How to Walk: Warm-starting Optimal Control Solver with Memory of Motion</h1>
 
   
 
@@ -308,13 +308,19 @@
   
   <div>
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Teguh Santoso Lembono</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Carlos Mastalli</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">Pierre Fernbach</span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Steve Tonneau</span>
+      <span itemprop="name">Nicolas Mansard</span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Michel Taïx</span>
+      <span itemprop="name">Sylvain Calinon</span>
     </span>
     
   </div>
@@ -322,11 +328,9 @@
 
   <span class="article-date">
     
-        Last updated on
-    
-    <meta content="2018-10-01 00:00:00 &#43;0200 CEST" itemprop="datePublished">
-    <time datetime="2018-10-25 13:48:44 &#43;0200 CEST" itemprop="dateModified">
-      Oct 25, 2018
+    <meta content="2020-01-31 00:00:00 &#43;0100 CET" itemprop="datePublished">
+    <time datetime="2020-01-31 00:00:00 &#43;0100 CET" itemprop="dateModified">
+      Jan 31, 2020
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -356,7 +360,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">We present a novel method for computing centroidal dynamic trajectories in multi-contact planning context. With dynamic motion it is necessary to respect kinematic and dynamic constraints during the contact planning step. Verifying the feasibility of a transition between contacts increase the success rate of the motion generation along the planned contacts. Our approach is based on a conservative but convex reformulation of the problem where we represent the center of mass trajectory as a Bezier curve, with control points constrained by the initial and final states and one free control point. Thanks to the convexity of this formulation, we can solve it efficiently with a Linear Program of low dimension. We use this LP as a feasibility criterion to test the contact transition candidates during multi-contact planning. By incorporating this criterion in an existing sampling-based contact planner, we are able to produce more robust contact sequences. We illustrate this application on various multi-contact scenarios. We also show that we can compute valuable initial guess, used to warm-start non-linear solvers for motion generation methods. This method could also be used for the 0 and 1-Step capturability problem.</p>
+    <p class="pub-abstract" itemprop="text">In this paper, we propose a framework to build a memory of motion to warm-start an optimal control solver for the locomotion task of the humanoid robot Talos. We use HPP Loco3D, a versatile locomotion planner, to generate offline a set of dynamically consistent whole-body trajectory to be stored as the memory of motion. The learning problem is formulated as a regression problem to predict a single-step motion given the desired contact locations, which is then used as building block for multi-step motions. The predicted trajectory is then used as warm-starts for the fast optimal control solver Crocoddyl. We have shown that the approach manages to reduce the required number of iterations to reach the convergence from ∼9.5 to only ∼3.0 iterations for the single-step motion and from ∼6.2 to ∼4.5 iterations for the multi-step motion, while maintaining the solution&rsquo;s quality.</p>
     
 
     
@@ -385,7 +389,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>2018 IEEE/RSJ International Conference on Intelligent Robots and Systems</em></div>
+          <div class="col-12 col-md-9"><em>2020 IEEE International Conference on Robotics and Automation</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -399,7 +403,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            October, 2018
+            January, 2020
           </div>
         </div>
       </div>
@@ -430,14 +434,14 @@
   
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://hal.archives-ouvertes.fr/hal-01726155/document" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2001.11751.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/fernbach18/fernbach18.bib">
+        data-filename="/publication/icra20/lembono20.bib">
   Cite
 </button>
 
@@ -451,17 +455,11 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/wKKUvbyN5kc" target="_blank" rel="noopener">
-  Video
-</a>
 
 
 
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://hal.laas.fr/hal-01726155" target="_blank" rel="noopener">
-  View on HAL
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2001.11751" target="_blank" rel="noopener">
+  View on arXiv
 </a>
 
 
@@ -475,12 +473,7 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/wKKUvbyN5kc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
-</div>
+    <div class="article-style"></div>
 
     
 
@@ -492,80 +485,6 @@
 
 
 
-
-<div class="media author-card" itemscope itemtype="http://schema.org/Person">
-  
-  <img class="portrait mr-3" src="/img/photoCV.JPG" itemprop="image" alt="Avatar">
-  
-  <div class="media-body">
-    <h5 class="card-title" itemprop="name"><a href="/">Pierre Fernbach</a></h5>
-    <h6 class="card-subtitle">PhD of Robotics</h6>
-    
-    <ul class="network-icon" aria-hidden="true">
-      
-      
-      
-      
-      
-      
-      <li>
-        <a itemprop="sameAs" href="mailto:pierre.fernbach@gmail.com" target="_blank" rel="noopener">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      <li>
-        <a itemprop="sameAs" href="https://scholar.google.fr/citations?user=y4XnB6IAAAAJ" target="_blank" rel="noopener">
-          <i class="ai ai-google-scholar"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      
-      
-      <li>
-        <a itemprop="sameAs" href="//github.com/pFernbach" target="_blank" rel="noopener">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      <li>
-        <a itemprop="sameAs" href="https://www.researchgate.net/profile/Pierre_Fernbach" target="_blank" rel="noopener">
-          <i class="ai ai-researchgate"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      
-      
-      <li>
-        <a itemprop="sameAs" href="https://www.linkedin.com/in/pierre-fernbach-b866b5186/" target="_blank" rel="noopener">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      <li>
-        <a itemprop="sameAs" href="files/Cv_Fernbach.pdf" target="_blank" rel="noopener">
-          <i class="ai ai-cv"></i>
-        </a>
-      </li>
-      
-    </ul>
-  </div>
-</div>
 
 
 

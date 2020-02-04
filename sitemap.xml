@@ -3,9 +3,103 @@
     
     <url>
     
-      <loc>https://pfernbach.github.io/</loc>
-      <lastmod>2018-12-14T14:15:33+01:00</lastmod>
+      <loc>https://pfernbach.github.io/publication_types/1/</loc>
+      <lastmod>2020-01-31T00:00:00+01:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://pfernbach.github.io/</loc>
+      <lastmod>2020-02-04T17:57:38+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://pfernbach.github.io/publication/icra20/</loc>
+      <lastmod>2020-01-31T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://pfernbach.github.io/publication_types/</loc>
+      <lastmod>2020-01-31T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://pfernbach.github.io/publication_types/2/</loc>
+      <lastmod>2020-01-29T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://pfernbach.github.io/publication/tro20/</loc>
+      <lastmod>2020-01-29T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://pfernbach.github.io/tags/multi-contact-locomotion-centroidal-dynamics-humanoid-robots-legged-robots-motion-planning/</loc>
+      <lastmod>2020-01-29T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://pfernbach.github.io/tags/</loc>
+      <lastmod>2020-01-29T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://pfernbach.github.io/publication/tase19/</loc>
+      <lastmod>2019-09-30T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://pfernbach.github.io/tags/motion-planning-contact-planning-sliding-motion-elastic-rod/</loc>
+      <lastmod>2019-09-30T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://pfernbach.github.io/publication/sl1m/</loc>
+      <lastmod>2019-09-01T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://pfernbach.github.io/publication/taros19/</loc>
+      <lastmod>2019-06-27T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -46,15 +140,6 @@
     
     <url>
     
-      <loc>https://pfernbach.github.io/tags/</loc>
-      <lastmod>2018-12-14T14:15:33+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://pfernbach.github.io/tags/learning/</loc>
       <lastmod>2018-10-25T14:21:30+02:00</lastmod>
       <priority>0</priority>
@@ -73,24 +158,6 @@
     
     <url>
     
-      <loc>https://pfernbach.github.io/tags/multi-contact-locomotion-centroidal-dynamics-humanoid-robots-legged-robots-motion-planning/</loc>
-      <lastmod>2018-12-14T14:15:33+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://pfernbach.github.io/publication_types/</loc>
-      <lastmod>2018-12-14T14:15:33+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://pfernbach.github.io/publication/fernbach_thesis/</loc>
       <lastmod>2018-12-14T14:15:33+01:00</lastmod>
     </url>
@@ -99,43 +166,8 @@
     
     <url>
     
-      <loc>https://pfernbach.github.io/publication_types/1/</loc>
-      <lastmod>2018-10-25T13:48:44+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://pfernbach.github.io/publication_types/4/</loc>
-      <lastmod>2018-10-25T13:48:44+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://pfernbach.github.io/publication/fernbach18ccroc/</loc>
-      <lastmod>2018-10-25T13:48:44+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://pfernbach.github.io/publication/fernbach18/</loc>
       <lastmod>2018-10-25T13:48:44+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://pfernbach.github.io/publication_types/2/</loc>
-      <lastmod>2018-10-25T13:48:44+02:00</lastmod>
-      <priority>0</priority>
     </url>
     
   

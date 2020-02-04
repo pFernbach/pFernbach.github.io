@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 15 Oct 2018 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://pfernbach.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>1</title>
+      <link>https://pfernbach.github.io/publication_types/1/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication_types/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2</title>
+      <link>https://pfernbach.github.io/publication_types/2/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication_types/2/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>3</title>
@@ -18,33 +36,6 @@
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0200</pubDate>
       
       <guid>https://pfernbach.github.io/publication_types/3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>1</title>
-      <link>https://pfernbach.github.io/publication_types/1/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://pfernbach.github.io/publication_types/1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>4</title>
-      <link>https://pfernbach.github.io/publication_types/4/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://pfernbach.github.io/publication_types/4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2</title>
-      <link>https://pfernbach.github.io/publication_types/2/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://pfernbach.github.io/publication_types/2/</guid>
       <description></description>
     </item>
     

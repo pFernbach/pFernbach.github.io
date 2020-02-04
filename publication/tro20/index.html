@@ -15,10 +15,10 @@
   
     
   
-  <meta name="description" content=" We present a novel method for computing centroidal dynamic trajectories in multi-contact planning context. With dynamic motion it is necessary to respect kinematic and dynamic constraints during the contact planning step. Verifying the feasibility of a transition between contacts increase the success rate of the motion generation along the planned contacts. Our approach is based on a conservative but convex reformulation of the problem where we represent the center of mass trajectory as a Bezier curve, with control points constrained by the initial and final states and one free control point. Thanks to the convexity of this formulation, we can solve it efficiently with a Linear Program of low dimension. We use this LP as a feasibility criterion to test the contact transition candidates during multi-contact planning. By incorporating this criterion in an existing sampling-based contact planner, we are able to produce more robust contact sequences. We illustrate this application on various multi-contact scenarios. We also show that we can compute valuable initial guess, used to warm-start non-linear solvers for motion generation methods. This method could also be used for the 0 and 1-Step capturability problem. ">
+  <meta name="description" content="Synthesizing legged locomotion requires planning one or several steps ahead (literally): when and where, and with which effector should the next contact(s) be created between the robot and the environment? Validating a contact candidate implies 	extit{a minima} the resolution of a slow, non-linear optimization problem, to demonstrate that a Center Of Mass (COM) trajectory, compatible with the contact transition constraints, exists. We propose a conservative reformulation of this trajectory generation problem as a convex 3D linear program, CROC. It results from the observation that if the COM trajectory is a polynomial with only one free variable coefficient, the non-linearity of the problem disappears. This has two consequences. On the positive side, in terms of computation times CROC outperforms the state of the art by at least one order of magnitude, and allows to consider interactive applications (with a planning time roughly equal to the motion time). On the negative side, in our experiments our approach finds a majority of the feasible trajectories found by a non-linear solver, but not all of them. Still, we demonstrate that the solution space covered by CROC is large enough to achieve the automated planning of a large variety of locomotion tasks for different robots, demonstrated in simulation and on the real HRP-2 robot, several of which were rarely seen before. Another significant contribution is the introduction of a Bezier curve representation of the problem, which guarantees that the constraints of the COM trajectory are verified continuously, and not only at discrete points as traditionally done. This formulation is lossless, and results in more robust trajectories. It is not restricted to CROC, but could rather be integrated with any method from the state of the art.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://pfernbach.github.io/publication/fernbach18/">
+  <link rel="alternate" hreflang="en-us" href="https://pfernbach.github.io/publication/tro20/">
 
   
 
@@ -100,30 +100,30 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://pfernbach.github.io/publication/fernbach18/">
+  <link rel="canonical" href="https://pfernbach.github.io/publication/tro20/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Homepage of Pierre Fernbach">
-  <meta property="og:url" content="https://pfernbach.github.io/publication/fernbach18/">
-  <meta property="og:title" content="CROC: Convex Resolution Of Centroidal dynamics trajectories to provide a feasibility criterion for the multi contact planning problem | Homepage of Pierre Fernbach">
-  <meta property="og:description" content=" We present a novel method for computing centroidal dynamic trajectories in multi-contact planning context. With dynamic motion it is necessary to respect kinematic and dynamic constraints during the contact planning step. Verifying the feasibility of a transition between contacts increase the success rate of the motion generation along the planned contacts. Our approach is based on a conservative but convex reformulation of the problem where we represent the center of mass trajectory as a Bezier curve, with control points constrained by the initial and final states and one free control point. Thanks to the convexity of this formulation, we can solve it efficiently with a Linear Program of low dimension. We use this LP as a feasibility criterion to test the contact transition candidates during multi-contact planning. By incorporating this criterion in an existing sampling-based contact planner, we are able to produce more robust contact sequences. We illustrate this application on various multi-contact scenarios. We also show that we can compute valuable initial guess, used to warm-start non-linear solvers for motion generation methods. This method could also be used for the 0 and 1-Step capturability problem. ">
+  <meta property="og:url" content="https://pfernbach.github.io/publication/tro20/">
+  <meta property="og:title" content="C-CROC: Continuous and Convex Resolution of Centroidal dynamic trajectories for legged robots in multi-contact scenarios | Homepage of Pierre Fernbach">
+  <meta property="og:description" content="Synthesizing legged locomotion requires planning one or several steps ahead (literally): when and where, and with which effector should the next contact(s) be created between the robot and the environment? Validating a contact candidate implies 	extit{a minima} the resolution of a slow, non-linear optimization problem, to demonstrate that a Center Of Mass (COM) trajectory, compatible with the contact transition constraints, exists. We propose a conservative reformulation of this trajectory generation problem as a convex 3D linear program, CROC. It results from the observation that if the COM trajectory is a polynomial with only one free variable coefficient, the non-linearity of the problem disappears. This has two consequences. On the positive side, in terms of computation times CROC outperforms the state of the art by at least one order of magnitude, and allows to consider interactive applications (with a planning time roughly equal to the motion time). On the negative side, in our experiments our approach finds a majority of the feasible trajectories found by a non-linear solver, but not all of them. Still, we demonstrate that the solution space covered by CROC is large enough to achieve the automated planning of a large variety of locomotion tasks for different robots, demonstrated in simulation and on the real HRP-2 robot, several of which were rarely seen before. Another significant contribution is the introduction of a Bezier curve representation of the problem, which guarantees that the constraints of the COM trajectory are verified continuously, and not only at discrete points as traditionally done. This formulation is lossless, and results in more robust trajectories. It is not restricted to CROC, but could rather be integrated with any method from the state of the art.">
   
   
     
   <meta property="og:image" content="https://pfernbach.github.io/img/photoCV.JPG">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-10-01T00:00:00&#43;02:00">
+  <meta property="article:published_time" content="2020-01-29T00:00:00&#43;01:00">
   
-  <meta property="article:modified_time" content="2018-10-25T13:48:44&#43;02:00">
-  
-
+  <meta property="article:modified_time" content="2020-01-29T00:00:00&#43;01:00">
   
 
   
 
-  <title>CROC: Convex Resolution Of Centroidal dynamics trajectories to provide a feasibility criterion for the multi contact planning problem | Homepage of Pierre Fernbach</title>
+  
+
+  <title>C-CROC: Continuous and Convex Resolution of Centroidal dynamic trajectories for legged robots in multi-contact scenarios | Homepage of Pierre Fernbach</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -294,7 +294,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">CROC: Convex Resolution Of Centroidal dynamics trajectories to provide a feasibility criterion for the multi contact planning problem</h1>
+  <h1 itemprop="name">C-CROC: Continuous and Convex Resolution of Centroidal dynamic trajectories for legged robots in multi-contact scenarios</h1>
 
   
 
@@ -314,6 +314,12 @@
       <span itemprop="name">Steve Tonneau</span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Olivier Stasse</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Justin Carpentier</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">Michel Taïx</span>
     </span>
     
@@ -322,11 +328,9 @@
 
   <span class="article-date">
     
-        Last updated on
-    
-    <meta content="2018-10-01 00:00:00 &#43;0200 CEST" itemprop="datePublished">
-    <time datetime="2018-10-25 13:48:44 &#43;0200 CEST" itemprop="dateModified">
-      Oct 25, 2018
+    <meta content="2020-01-29 00:00:00 &#43;0100 CET" itemprop="datePublished">
+    <time datetime="2020-01-29 00:00:00 &#43;0100 CET" itemprop="dateModified">
+      Jan 29, 2020
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -356,7 +360,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">We present a novel method for computing centroidal dynamic trajectories in multi-contact planning context. With dynamic motion it is necessary to respect kinematic and dynamic constraints during the contact planning step. Verifying the feasibility of a transition between contacts increase the success rate of the motion generation along the planned contacts. Our approach is based on a conservative but convex reformulation of the problem where we represent the center of mass trajectory as a Bezier curve, with control points constrained by the initial and final states and one free control point. Thanks to the convexity of this formulation, we can solve it efficiently with a Linear Program of low dimension. We use this LP as a feasibility criterion to test the contact transition candidates during multi-contact planning. By incorporating this criterion in an existing sampling-based contact planner, we are able to produce more robust contact sequences. We illustrate this application on various multi-contact scenarios. We also show that we can compute valuable initial guess, used to warm-start non-linear solvers for motion generation methods. This method could also be used for the 0 and 1-Step capturability problem.</p>
+    <p class="pub-abstract" itemprop="text">Synthesizing legged locomotion requires planning one or several steps ahead (literally): when and where, and with which effector should the next contact(s) be created between the robot and the environment? Validating a contact candidate implies    extit{a minima} the resolution of a slow, non-linear optimization problem, to demonstrate that a Center Of Mass (COM) trajectory, compatible with the contact transition constraints, exists. We propose a conservative reformulation of this trajectory generation problem as a convex 3D linear program, CROC. It results from the observation that if the COM trajectory is a polynomial with only one free variable coefficient, the non-linearity of the problem disappears. This has two consequences. On the positive side, in terms of computation times CROC outperforms the state of the art by at least one order of magnitude, and allows to consider interactive applications (with a planning time roughly equal to the motion time). On the negative side, in our experiments our approach finds a majority of the feasible trajectories found by a non-linear solver, but not all of them. Still, we demonstrate that the solution space covered by CROC is large enough to achieve the automated planning of a large variety of locomotion tasks for different robots, demonstrated in simulation and on the real HRP-2 robot, several of which were rarely seen before. Another significant contribution is the introduction of a Bezier curve representation of the problem, which guarantees that the constraints of the COM trajectory are verified continuously, and not only at discrete points as traditionally done. This formulation is lossless, and results in more robust trajectories. It is not restricted to CROC, but could rather be integrated with any method from the state of the art.</p>
     
 
     
@@ -367,8 +371,8 @@
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
             
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#2">
+              Journal article
             </a>
             
           </div>
@@ -380,18 +384,6 @@
     
 
     
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>2018 IEEE/RSJ International Conference on Intelligent Robots and Systems</em></div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
 
     <div class="row">
       <div class="col-md-1"></div>
@@ -399,7 +391,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            October, 2018
+            January, 2020
           </div>
         </div>
       </div>
@@ -420,24 +412,24 @@
 
 
 
-
-  
-
-
-
-  
-    
-  
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://hal.archives-ouvertes.fr/hal-01726155/document" target="_blank" rel="noopener">
-  PDF
+<a class="btn btn-outline-primary my-1 mr-1" href="https://hal.laas.fr/hal-01894869/document" target="_blank" rel="noopener">
+  Preprint
 </a>
 
 
 
+
+  
+
+
+
+  
+
+
+
+
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/fernbach18/fernbach18.bib">
+        data-filename="/publication/tro20/fernbach_tro_20.bib">
   Cite
 </button>
 
@@ -451,7 +443,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/wKKUvbyN5kc" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/oKKlShZvcs4" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -460,7 +452,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://hal.laas.fr/hal-01726155" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://hal.laas.fr/hal-01894869" target="_blank" rel="noopener">
   View on HAL
 </a>
 
@@ -477,12 +469,21 @@
 
     <div class="article-style">
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/wKKUvbyN5kc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="//www.youtube.com/embed/oKKlShZvcs4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 </div>
 
     
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="">Multi contact locomotion ; centroidal dynamics ; Humanoid robots ; legged robots ; Motion planning</a>
+  
+</div>
+
+
 
     
 

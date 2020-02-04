@@ -6,8 +6,68 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 23 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0100</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Learning How to Walk: Warm-starting Optimal Control Solver with Memory of Motion</title>
+      <link>https://pfernbach.github.io/publication/icra20/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/icra20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C-CROC: Continuous and Convex Resolution of Centroidal dynamic trajectories for legged robots in multi-contact scenarios</title>
+      <link>https://pfernbach.github.io/publication/tro20/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/tro20/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/oKKlShZvcs4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Motion Planning for an Elastic Rod using Contacts</title>
+      <link>https://pfernbach.github.io/publication/tase19/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/tase19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SL1M: Sparse L1-norm Minimization for contact planning on uneven terrain</title>
+      <link>https://pfernbach.github.io/publication/sl1m/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/sl1m/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/gOQHI-YlOi0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Contact Planning for the ANYmal Quadruped Robot Using an Acyclic Reachability-Based Planner</title>
+      <link>https://pfernbach.github.io/publication/taros19/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://pfernbach.github.io/publication/taros19/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/X78Y9oZvGHY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Humanoid Path Planner</title>
@@ -36,20 +96,6 @@
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/TOCpaRUf4zk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>C-CROC: Continuous and Convex Resolution of Centroidal dynamic trajectories for legged robots in multi-contact scenarios</title>
-      <link>https://pfernbach.github.io/publication/fernbach18ccroc/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://pfernbach.github.io/publication/fernbach18ccroc/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/oKKlShZvcs4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -130,15 +176,6 @@
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0200</pubDate>
       
       <guid>https://pfernbach.github.io/publication/mirabel16/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modular fault diagnosis in discrete-event systems with a CPN diagnoser</title>
-      <link>https://pfernbach.github.io/publication/pencole15/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0200</pubDate>
-      
-      <guid>https://pfernbach.github.io/publication/pencole15/</guid>
       <description></description>
     </item>
     
